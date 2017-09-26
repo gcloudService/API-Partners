@@ -1,0 +1,11 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": true,
+    "importedSpec": "api-v1.1.yaml",
+    "name": "gCloud Partners",
+    "repo": "gcloudService/API-Partners",
+    "splitSpec": true,
+    "samples": true,
+    "installSwaggerUI": true
+  }
+}
