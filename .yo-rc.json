@@ -4,7 +4,7 @@
     "importedSpec": "api-v1.1.yaml",
     "name": "gCloud Partners",
     "repo": "gcloudService/API-Partners",
-    "splitSpec": true,
+    "splitSpec": false,
     "samples": true,
     "installSwaggerUI": true
   }
