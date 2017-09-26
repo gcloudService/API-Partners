@@ -1,7 +1,6 @@
 {
   "generator-openapi-repo": {
-    "importExistingSpec": true,
-    "importedSpec": "api-v1.1.yaml",
+    "importExistingSpec": false,
     "name": "gCloud Partners",
     "repo": "gcloudService/API-Partners",
     "splitSpec": false,
