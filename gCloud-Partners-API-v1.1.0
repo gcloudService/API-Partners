@@ -1,0 +1,3240 @@
+{
+	"id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+	"name": "파트너 API 파트장님",
+	"description": "",
+	"order": [
+		"cf187869-6b01-4ae7-ee21-b59d6a3b3db6",
+		"41918f3e-7c9f-20e9-de64-cd7e38d6e9d2",
+		"da34e188-c2bc-c4d2-a4ef-419c7f44e81a",
+		"40abc6ff-ca55-9329-e624-eb9184663fa8",
+		"c7571bad-2ac4-e94e-efa2-b7da072f7172",
+		"b35e8abe-da6b-ecec-7818-5db3ce8c5e2c",
+		"68df9fc8-b073-67dd-9590-65546c4d993e",
+		"adfa8b2c-acea-37bb-a8d5-beade5ee73e6",
+		"231e3414-9127-a4ad-4bd1-d31d5cb1d485",
+		"8c682eb1-6422-d819-ec5b-3d29513bc006",
+		"689feb8a-626f-b631-b346-403eef48c7e5",
+		"76c06622-d9f2-dd01-b0c4-6614eb4e12b5",
+		"6a76f49b-cf5d-d383-f2c9-6f88f4f01353",
+		"8af47920-3778-a739-bda1-37a331a31123",
+		"755437bf-2dde-1e17-7330-6bdce4097374",
+		"1d8563db-ee17-55ac-9284-0594b6f82084",
+		"d2658a62-1789-233e-092e-de6999b4f71c",
+		"5809220c-2413-39c7-1fd8-fbd26714feb8",
+		"15fa8188-72b7-59e8-f3d6-d665af6042ba",
+		"a3e782a4-935c-6593-c96b-670a21b9aa21",
+		"80d161bb-392c-1ab2-da7a-9b903290c2a6",
+		"58d679ca-74d1-b1ab-72c2-2e0ad6866b6a",
+		"0be8e043-6ea9-0beb-7ae0-434710dd7a67",
+		"6204f75d-e52d-4cfd-8f8d-4d4319415877",
+		"445d862d-cf85-d7c4-e4ed-50714d46b097",
+		"036ddade-91e0-4db0-f2e7-1f45752d8cce",
+		"b80513dc-546a-9230-a085-1583aecbec9c",
+		"4eff6998-d074-1c59-836e-56ca4c068b6f",
+		"bb23484f-181e-42ff-b4b7-eeb8c281082c",
+		"de14cc45-f2cb-3e86-4669-b44a652d4ca1",
+		"1cb68e73-294a-940f-57bf-6dafd6b9b8af",
+		"15f16db3-035c-acb8-898a-88c6bd66d8cc",
+		"428a1e2b-01bf-7f35-4fc8-2b9c00bb7d79",
+		"3c286335-e48a-28af-ffd8-b8bf4687d690",
+		"9394ddd7-2aa1-164e-cc38-6ecb4ff391c7",
+		"77f1094a-6ab8-6f51-3df0-bd6f008efbd1",
+		"e6e74a2e-fc8c-a1b0-d560-85e794f4dc15",
+		"c8ce73ad-78e1-d619-b4ec-e4481b2e8f5b",
+		"3371eabe-28cc-6031-7f49-e4d129788b56",
+		"60206936-43db-9e03-6e22-b83b610d8054",
+		"2725ea46-1095-41d7-c41f-3101449972fc",
+		"02b9a3c9-87a5-0141-0e3b-b648227ee9c5",
+		"afb69ddf-3773-fe99-e025-dc5293a905df",
+		"12dae26e-28ed-1f37-1b86-1e4f5ed401b6",
+		"150f0e3e-93c3-fece-cbef-025a0fa3600a",
+		"aec8eb1e-eff2-ec74-0e4f-732275b2fc33",
+		"4139eba4-8164-8761-e90d-8e8588657160",
+		"2ac7fe99-671e-e42e-6ad2-eb82d8237b99",
+		"76ad8695-6354-b9fe-2c2d-ad49fc6c59bc",
+		"56348d17-39b6-2df2-c89b-05e951bb2d8d",
+		"60f5abd5-dae8-cb58-a3a4-cdc492c49f61",
+		"7b9d4e16-fb02-5157-855d-29f73360da62",
+		"538d6566-657a-6fb4-b475-fa6b3fb93fdc",
+		"a9535550-bdeb-c3fb-61ff-eeef5663677a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1502702051895,
+	"owner": "778573",
+	"public": false,
+	"requests": [
+		{
+			"id": "02b9a3c9-87a5-0141-0e3b-b648227ee9c5",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/snapshots/snap_20",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505719381077,
+			"name": "스냅샷 상세정보 - /snapshots/:snap_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "036ddade-91e0-4db0-f2e7-1f45752d8cce",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "lb-test111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "생성테스트.",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_id",
+					"value": "pubIp_562",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "80,8080,443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "http,http,tcp",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": "로밸런서테스트,,HTTPS",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "balance_mode",
+					"value": "r",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "session_time",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_session",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "program",
+					"value": "php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token_length",
+					"value": "256",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_time",
+					"value": "10800",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505715666207,
+			"name": "로드밸런서 생성 - /lbs",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "0be8e043-6ea9-0beb-7ae0-434710dd7a67",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/ips",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505701261399,
+			"name": "공인 IP 추가 - /ips",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "12dae26e-28ed-1f37-1b86-1e4f5ed401b6",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/images?q=user_id=cloud",
+			"folder": null,
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "user_id=cloud",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385363241,
+			"name": "이미지 목록 - /images",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "150f0e3e-93c3-fece-cbef-025a0fa3600a",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/images",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "img_test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "이미지 생성",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "snap_id",
+					"value": "snap_37",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505720670939,
+			"name": "이미지 생성 - /images copy",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "15f16db3-035c-acb8-898a-88c6bd66d8cc",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "port",
+					"value": "443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "http",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": "SSL 추가",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505709244288,
+			"name": "로드밸런서 포트 추가 - /lbs/:lb_id/ports",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "15fa8188-72b7-59e8-f3d6-d665af6042ba",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/volumes/vol_23",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "avc",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508122159717,
+			"name": "볼륨 이름/설명 변경 - /volumes/:vol_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "1cb68e73-294a-940f-57bf-6dafd6b9b8af",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports?port=443",
+			"queryParams": [
+				{
+					"key": "port",
+					"value": "443",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505708663698,
+			"name": "로드밸런서 포트 삭제 - /lbs/:lb_id/ports",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "1d8563db-ee17-55ac-9284-0594b6f82084",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/volumes?q=&order=-attachdate",
+			"folder": null,
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "order",
+					"value": "-attachdate",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "API test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508122162909,
+			"name": "볼륨 조회- /volumes",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "231e3414-9127-a4ad-4bd1-d31d5cb1d485",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/password",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505287346611,
+			"name": "서버 비밀번호 변경 - /servers/:svr_id/password",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "2725ea46-1095-41d7-c41f-3101449972fc",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/snapshots/snap_20",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505716540432,
+			"name": "스냅샷 삭제 - /snapshots/:snap_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "2ac7fe99-671e-e42e-6ad2-eb82d8237b99",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/images/img_2140",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "chg_imgname",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "이지 이름변",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505723473734,
+			"name": "이미지 변경 - /images/:img_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "3371eabe-28cc-6031-7f49-e4d129788b56",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/snapshots",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "svr_id",
+					"value": "vm_280",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "API test111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505716251750,
+			"name": "스냅샷 목록 - /snapshots",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "3c286335-e48a-28af-ffd8-b8bf4687d690",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ips/pubIp_617",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "port",
+					"value": "443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "tcp",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": "SSL 추가",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505715543688,
+			"name": "로드밸런서 IP 변경 - /lbs/:lb_id/ips/:ip_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "40abc6ff-ca55-9329-e624-eb9184663fa8",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_51",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "img_id",
+					"value": "img_131",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_use",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "hi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "설명",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpu",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "memory",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hdd",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385354841,
+			"name": "서버 조회 - /servers/:svr_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "4139eba4-8164-8761-e90d-8e8588657160",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/images/img_2140",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505722066576,
+			"name": "이미지 상세정보 - /images/:img_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "41918f3e-7c9f-20e9-de64-cd7e38d6e9d2",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers?order=-regdate&q=os=linux",
+			"queryParams": [
+				{
+					"key": "order",
+					"value": "-regdate",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "q",
+					"value": "os=linux",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "img_id",
+					"value": "img_131",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_use",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "hi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "설명",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpu",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "memory",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hdd",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385355937,
+			"name": "서버 목록 - /servers",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "428a1e2b-01bf-7f35-4fc8-2b9c00bb7d79",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "port",
+					"value": "443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "tcp",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": "SSL 추가",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505709842635,
+			"name": "로드밸런서 포트 변경 - /lbs/:lb_id/ports",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "445d862d-cf85-d7c4-e4ed-50714d46b097",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "lb-test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_id",
+					"value": "pubIp_621",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "90,90",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "tcp,http",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": ", wow hoia sadn",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "balance_mode",
+					"value": "r",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "session_time",
+					"value": "111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_session",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "program",
+					"value": "php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token_length",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_time",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505698724783,
+			"name": "로드밸런서 목록 - /lbs",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "4eff6998-d074-1c59-836e-56ca4c068b6f",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "lb_rename",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "로드밸런서 이름 수정",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505708019140,
+			"name": "로드밸런서 변경 - /lbs/:lb_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "538d6566-657a-6fb4-b475-fa6b3fb93fdc",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/auth/api",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "partner_id",
+					"value": "ryan0425",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "secret",
+					"value": "OWE0M2IzNWQtMzg1Ni01YjFmLWFlNzQtNTNiOTNiYzBkZjg2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385357641,
+			"name": "토큰 발급 - /auth/api",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "56348d17-39b6-2df2-c89b-05e951bb2d8d",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/users?q=nam111e=kt_dev&order=createdate12",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "nam111e=kt_dev",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "order",
+					"value": "createdate12",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506322034318,
+			"name": "사용자 목록 - /users",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "5809220c-2413-39c7-1fd8-fbd26714feb8",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/volumes",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "vol2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "API test111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696018528,
+			"name": "볼륨 생성 - /volumes",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "58d679ca-74d1-b1ab-72c2-2e0ad6866b6a",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/ips/pubIp_531",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505700249350,
+			"name": "공인 IP 상세정보 - /ips/:ip_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "60206936-43db-9e03-6e22-b83b610d8054",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/snapshots",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "svr_id",
+					"value": "vm_20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "snap_test2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "스냅샷 생성 테스트2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505722038593,
+			"name": "스냅샷 생성 - /snapshots",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "60f5abd5-dae8-cb58-a3a4-cdc492c49f61",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "kt_dev",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506322050804,
+			"name": "사용자 등록 - /users",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "6204f75d-e52d-4cfd-8f8d-4d4319415877",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/ips/pubIp_566",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505698200919,
+			"name": "공인 IP 삭제 - /ips/:ip_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "689feb8a-626f-b631-b346-403eef48c7e5",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}//servers/vm_20/volumes/vol_24",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "vol_id",
+					"value": "vol_235",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696046142,
+			"name": "서버 볼륨 해제 - /servers/:svr_id/volumes/:vol_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "68df9fc8-b073-67dd-9590-65546c4d993e",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/spec",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "baikhos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpu",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "memory",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696041134,
+			"name": "서버 사양 변경 - /servers/:svr_id/spec",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "6a76f49b-cf5d-d383-f2c9-6f88f4f01353",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/ips/pubIp_531",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505700244308,
+			"name": "서버 공인 IP 해제 - /servers/:svr_id/ips/:ip_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "755437bf-2dde-1e17-7330-6bdce4097374",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/fws/?fw_ids=fr_43",
+			"queryParams": [
+				{
+					"key": "fw_ids",
+					"value": "fr_43",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696033440,
+			"name": "서버 방화벽 삭제 - /servers/:svr_id/fws",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "76ad8695-6354-b9fe-2c2d-ad49fc6c59bc",
+			"headers": "Content-Type: application/json\napi-key: !Gcl0Ud-$-@P1-k2Y\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "api-key",
+					"value": "!Gcl0Ud-$-@P1-k2Y",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/partners",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505204675740,
+			"name": "파트너 추가 - /partners",
+			"description": "파트너 추가",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"rawModeData": "{\n\"gabia_id\" : \"snoopy99\",\n\"company_name\": \"가비아\",\n\"business_license_number\": \"214-86-39239\",\n\"business_license_path\": \"static.gabia.com/www/main/prank/2017/0822/prank.gif\",\n\"manager_name\": \"이재현\",\n\"manager_phone\": \"010-3426-6804\",\n\"manager_email\": \"baikhos@naver.com\"\n}",
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "76c06622-d9f2-dd01-b0c4-6614eb4e12b5",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/ips/pubIp_564",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505708675457,
+			"name": "서버 공인 IP 부착 - /servers/:svr_id/ips/:ip_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "77f1094a-6ab8-6f51-3df0-bd6f008efbd1",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports/80/servers",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "svr_ids",
+					"value": "vm_20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "svr_ports",
+					"value": "80",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505715916386,
+			"name": "로드밸런서 포트에 서버 수정 - /lbs/:lb_id/ports/:port/servers",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "7b9d4e16-fb02-5157-855d-29f73360da62",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/users/nbp",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385356857,
+			"name": "사용자 삭제 - /users/:user_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "80d161bb-392c-1ab2-da7a-9b903290c2a6",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/ips?order=-ip_attach",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "ip_attach=",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "order",
+					"value": "-ip_attach",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508122158035,
+			"name": "공인 IP 목록 - /ips",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "8af47920-3778-a739-bda1-37a331a31123",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_280/fws",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "service",
+					"value": "HTTPS",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "protocol",
+					"value": "TCP",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_port",
+					"value": "443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_port",
+					"value": "443",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_group",
+					"value": "0.0.0.0/0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "웹서비스",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508122164557,
+			"name": "서버 방화벽 추가 - /servers/:svr_id/fws",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "8c682eb1-6422-d819-ec5b-3d29513bc006",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/volumes/vol_24",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506389630717,
+			"name": "서버 볼륨 장착 - /servers/:svr_id/volumes/:vol_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "9394ddd7-2aa1-164e-cc38-6ecb4ff391c7",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports/8080/servers",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "svr_ids",
+					"value": "vm_20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "svr_ports",
+					"value": "80",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505715704109,
+			"name": "로드밸런서 포트에 서버 추가 - /lbs/:lb_id/ports/:port/servers",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "a3e782a4-935c-6593-c96b-670a21b9aa21",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/volumes/vol_24",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696015384,
+			"name": "볼륨 삭제 - /volumes/:vol_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "a9535550-bdeb-c3fb-61ff-eeef5663677a",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/auth/api/token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0IjoiZjRkMGUwM2JiZjA0YTIwNzM1ZGU5ZTRjYWQzNzU4YmU3M2Q1NTZhMzk0ZWNmY2Y4ZDA0NWZhNDQwZTNjNTEyZThlMGE1YzgzNjcxZGZjYzk0NDE3MjBmMjBiNzEzMDFjOWM1ZmQ5N2MzZDQyZjZiZTIyYmExMWQwMThkNGY2N2MiLCJpYXQiOjE1MDYzMTM3ODMsImV4cCI6MTUwNjM0OTc4MywiaXNzIjoiZ2Nsb3VkIiwic3ViIjoic29ja2V0In0.wJXe3g6ocfTDN5BRwDE1L3Olj1iup9DLyXAOzPecNxw&secret=Y2YxZWUyY2UtMTk4OS01ZjNhLTlmMjktODdhOGM3YmMzY2Nk",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbmNyeXB0IjoiZjRkMGUwM2JiZjA0YTIwNzM1ZGU5ZTRjYWQzNzU4YmU3M2Q1NTZhMzk0ZWNmY2Y4ZDA0NWZhNDQwZTNjNTEyZThlMGE1YzgzNjcxZGZjYzk0NDE3MjBmMjBiNzEzMDFjOWM1ZmQ5N2MzZDQyZjZiZTIyYmExMWQwMThkNGY2N2MiLCJpYXQiOjE1MDYzMTM3ODMsImV4cCI6MTUwNjM0OTc4MywiaXNzIjoiZ2Nsb3VkIiwic3ViIjoic29ja2V0In0.wJXe3g6ocfTDN5BRwDE1L3Olj1iup9DLyXAOzPecNxw",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "secret",
+					"value": "Y2YxZWUyY2UtMTk4OS01ZjNhLTlmMjktODdhOGM3YmMzY2Nk",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "partner_id",
+					"value": "snoopy99",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "secret",
+					"value": "Y2YxZWUyY2UtMTk4OS01ZjNhLTlmMjktODdhOGM3YmMzY2Nk",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385359353,
+			"name": "토큰 확인 - /auth/api/token",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "adfa8b2c-acea-37bb-a8d5-beade5ee73e6",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20/action",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "type",
+					"value": "stop",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505290338363,
+			"name": "서버 상태 변경 - /servers/:svr_id/action",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "aec8eb1e-eff2-ec74-0e4f-732275b2fc33",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/images/img_2140",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505723656998,
+			"name": "이미지 삭제 - /images/:img_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "afb69ddf-3773-fe99-e025-dc5293a905df",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/snapshots/snap_37",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "snap_aaa",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "이름 변",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505722042945,
+			"name": "스냅샷 이름/설명 변경 - /snapshots/:snap_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "b35e8abe-da6b-ecec-7818-5db3ce8c5e2c",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_276",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1502869416995,
+			"name": "서버 삭제 - /servers/:svr_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "b80513dc-546a-9230-a085-1583aecbec9c",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "lb-test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_id",
+					"value": "pubIp_621",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "90,90",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_mode",
+					"value": "tcp,http",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port_desc",
+					"value": ", wow hoia sadn",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "balance_mode",
+					"value": "r",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "session_time",
+					"value": "111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_session",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "program",
+					"value": "php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token_length",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_time",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505715661510,
+			"name": "로드밸런서 상세정보 - /lbs/:lb_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "bb23484f-181e-42ff-b4b7-eeb8c281082c",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/setup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "balance_mode",
+					"value": "l",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "session_time",
+					"value": "180",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_session",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "program",
+					"value": "php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token_length",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sticky_time",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505707723704,
+			"name": "로드밸런서 설정변경 - /lbs/:lb_id/setup",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "c7571bad-2ac4-e94e-efa2-b7da072f7172",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_51",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "img_id",
+					"value": "img_131",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_use",
+					"value": "N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "hi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "설명",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpu",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "memory",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hdd",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385354841,
+			"name": "서버 조회 - /servers/:svr_id copy",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "40abc6ff-ca55-9329-e624-eb9184663fa8"
+		},
+		{
+			"id": "c8ce73ad-78e1-d619-b4ec-e4481b2e8f5b",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/network",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "action",
+					"value": "start",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505714083076,
+			"name": "로드밸런서 네트워크 변경 - /lbs/:lb_id/network",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "cf187869-6b01-4ae7-ee21-b59d6a3b3db6",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "kt_dev",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "service_zone",
+					"value": "zone_1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "img_id",
+					"value": "img_131",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ip_use",
+					"value": "Y",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "ip-test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "scale-out server",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "basic",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cpu",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "memory",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hdd",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1506385358528,
+			"name": "서버 생성 - /servers",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": []
+		},
+		{
+			"id": "d2658a62-1789-233e-092e-de6999b4f71c",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/volumes/vol_24",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "tester",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "API test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "size",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1505696021698,
+			"name": "볼륨 조회- /volumes/:vol_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"folder": null,
+			"timestamp": null,
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "da34e188-c2bc-c4d2-a4ef-419c7f44e81a",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/servers/vm_20",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "test_vm",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "설명 변경이지롱..",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505280310119,
+			"name": "서버 변경 - /servers/:svr_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "de14cc45-f2cb-3e86-4669-b44a652d4ca1",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505708175339,
+			"name": "로드밸런서 삭제 - /lbs/:lb_id",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		},
+		{
+			"id": "e6e74a2e-fc8c-a1b0-d560-85e794f4dc15",
+			"headers": "Authorization: Bearer {{jwt}}\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer {{jwt}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{host}}:{{port}}/{{version}}/lbs/lbg_7/ports/8080/servers?svr_ids=vm_20",
+			"queryParams": [
+				{
+					"key": "svr_ids",
+					"value": "vm_20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1505716258326,
+			"name": "로드밸런서 포트에 서버 삭제 - /lbs/:lb_id/ports/:port/servers",
+			"description": "",
+			"collectionId": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33",
+			"responses": [],
+			"collection_id": "ed6b0b06-84fc-2258-6ad8-31358d2a9c33"
+		}
+	]
+}
